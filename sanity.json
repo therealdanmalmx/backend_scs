@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "c02fvkao",
+    "dataset": "production"
+  },
   "project": {
     "name": "Squared Circle Studio"
-  },
-  "api": {
-    "projectId": "l287glsi",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
