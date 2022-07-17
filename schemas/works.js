@@ -30,11 +30,6 @@ export default {
       type: "string",
     },
     {
-      name: "codeLink",
-      title: "Code Link",
-      type: "string",
-    },
-    {
       name: "imgUrl",
       title: "ImageUrl",
       type: "image",
