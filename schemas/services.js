@@ -32,5 +32,33 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: "typeofservice",
+      title: "Type of Services",
+      type: "array",
+      of: [
+        {
+          type: "document",
+          fields: [
+
+            {
+              name: "title",
+              title: "Title",
+              type: "string",
+            },
+            {
+              name: "description",
+              title: "Description",
+              type: "string",
+            },
+            {
+              name: "iconUrl",
+              title: "IconUrl",
+              type: "image",
+            },
+          ]
+        },
+      ],
+    },
   ],
 };
