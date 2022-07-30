@@ -20,8 +20,13 @@ export default {
       },
     },
     {
-      name: "description",
-      title: "Description",
+      name: "shortdescription",
+      title: "Short description",
+      type: "string",
+    },
+    {
+      name: "longdescription",
+      title: "Long description",
       type: "string",
     },
     {
